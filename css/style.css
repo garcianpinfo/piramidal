@@ -1,0 +1,112 @@
+@font-face{
+    font-family: helveticaneue;
+    src: url('../fontes/HelveticaNeue.ttf')
+}
+body{overflow-x: hidden;}
+.btnmobile{display: none;}
+.figmobile{display: none;}
+.main_navmo{display: none;}
+
+.home{position: relative; opacity: 0.8;}
+.navhome{position: fixed; width: 100%;background-image: url(../img/bckground01.png);color: #fff;}
+.main_logo{position: relative; width: 250px; height: 50px;}
+.main_logo a{position: absolute; width: 280px; height: 60px; background: url(../img/piramidal.png) center center no-repeat; background-size: auto 100%;}
+.main_nav{width: auto; margin-top: 2%; padding-right: 1%;float: right;}
+.main_nav li{float: left;}
+.main_nav a{float: left; padding: 8px 12px; color: #eee; font-size: 12pt; font-family: 'helveticaneue', serif; font-weight: bold;}
+.main_nav a:hover{color: #fff; text-decoration: underline;}
+.line_orange{ background-color: #d28700; width: 100%; height: 7px;}
+
+.ajustehome{background-color: black;width: 100%;height: 100%;}
+.slides{float: left; background: black; width: 100%;height: 60%; margin: 0;position: relative;margin-top: 147px;}
+.slide_item{display: none;}
+.slide_item.first{display: block;}
+.icones{padding-left: 24%;height: 25%;background-image: url(../img/bckground01.png);}
+.icontop{width: 50%; height: auto; margin-top: 10%; padding: 8%;}
+.icontop figcaption{font-family: 'helveticaneue', serif; font-size: 16pt; text-align: center;}
+.icones a{color: #eee;}
+.icones a:hover{text-decoration: underline; color: #eee;}
+
+.main_black{width: auto; margin-top: -100px; padding-right: 10%;}
+.main_black li{float: left;}
+.main_black a{float: left; padding: 12px 16px; color: #d28700; font-size: 15pt; font-family: 'helveticaneue', serif; font-weight: 600;}
+.main_black a:hover{color: #d28700; text-decoration: underline;}
+
+.main_white{width: auto; margin-top: -100px; padding-right: 10%;}
+.main_white li{float: left;}
+.main_white a{float: left; padding: 12px 16px; color: #d28700; font-size: 15pt; font-family: 'helveticaneue', serif; font-weight: 600;}
+.main_white a:hover{color: #d28700; text-decoration: underline;}
+
+.academia h1{font-family: 'helveticaneue'; font-size: 4.5em; color: black; margin-top: 185px; margin-bottom: 20px;}
+.academia p{font-family: 'helveticaneue'; font-size: 15pt; color: black; margin: 0 25% 0 25% ;}
+.imgacademia{width: 15%; margin-top: 60px; margin-left: 45%}
+
+.treinos{margin-bottom: 40px;background-image: url(../img/bckground01.png);color: #fff;}
+.treinos h1{font-family: 'helveticaneue'; font-size: 4.5em; margin-top: 180px; margin-bottom: 20px;}
+.treinos p{font-family: 'helveticaneue'; font-size: 15pt;}
+.arttreileft{float: left;}
+.arttreiright{float: right;}
+.figtreinos{width: 30%; height: 60%; margin-bottom: 30px; margin-left: 30%;}
+.treinos article{margin-top: 20px; margin-bottom: 30px; margin: 0 10% 5% 10%;}
+.treinos article figcaption{font-family: 'helveticaneue'; font-size: 18pt; margin-top: 30px;}
+
+
+.planos{margin-bottom: 60px;}
+.iconplan{width: 90%; height: 90%; margin-top: 10px; }
+.planos h1{font-family: 'helveticaneue'; font-size: 4.5em; margin-top: 180px;}
+.planos article{margin:0 5%;}
+.planos figcaption{font-family: 'helveticaneue', serif; font-size: 20pt; text-align: center;}
+
+.fotos{background-image: url(../img/bckground01.png);color: #fff;}
+.fotos div{margin-left: 12%;}
+.box_fotos{width: 24%; height: 100%;}
+.fotos h1{font-family: 'helveticaneue'; font-size: 4.5em; margin-top: 180px; margin-bottom: 50px;}
+.iconfotos{width: 90%; height: 90%; margin-top: 10px;}
+
+
+.contatos h1{font-family: 'helveticaneue'; font-size: 4.5em; margin-top: 140px; margin-bottom: 10px;}
+.imghorario div{width: 70%;}
+.imghorario{background: url(../img/imgrodape.jpg); width: 100%; margin-bottom: -10px;}
+
+
+#tel{font-family: 'helveticaneue'; font-size: 25pt; padding: 5%;}
+#tel span{background: #ffee00;}
+footer{background-color: #007739;}
+.figrodape{float: right; margin-right: 25%;}
+
+
+
+@media (max-width: 595px){
+
+
+    .navhome{position: relative;}
+    .main_logo{position: relative; width: 150px; height: 30px;}
+    .main_logo a{position: absolute; width: 190px; height: 40px; background: url(../img/piramidal.png)  no-repeat; background-size: auto 100%;}
+    .main_nav {display: none;}
+    .btnmobile{display: block; position: absolute; width: 50px; height: 50px;margin-top: -10px; margin-left: 60%;}
+    .main_navmo a{color: #eee; font-size: 12pt; font-family: 'helveticaneue', serif; font-weight: bold;}
+    .main_navmo li{padding: 8px;border: 1px white solid; text-align: center;}
+
+    .ajustehome{display: none;}
+    .figmobile{display: block;}  
+    .academia article{width: 100% !important;}
+    .academia h1{font-family: 'helveticaneue'; font-size: 3.5em; color: black; margin-top: 20px; margin-bottom: 20px;}
+    .academia p{font-family: 'helveticaneue'; font-size: 10pt; color: black;margin: 0 5% 0 5% !important; }
+
+    .treinos h1{font-family: 'helveticaneue'; font-size: 3.5em; margin-top: 20px;}
+    .treinos p{font-family: 'helveticaneue'; font-size: 10pt;}
+    .arttreileft{clear: both; width: 90%;margin: 0 5% 0 5% !important;}
+    .arttreiright{clear: both;width: 90%;margin: 0 5% 10% 5% !important;}
+    .treinos article figcaption{font-family: 'helveticaneue'; font-size: 12pt; margin-top: 30px;}
+
+    .planos h1{font-family: 'helveticaneue'; font-size: 3.5em; margin-top: 10px;}
+    .planos figcaption{font-family: 'helveticaneue', serif; font-size: 15pt; text-align: center;}
+
+    .fotos h1{font-family: 'helveticaneue'; font-size: 4.5em; margin-top: 30px; margin-bottom: 20px;}
+    .box_fotos{width: 48%; margin: 0.2%;}
+
+    .contatos h1{font-family: 'helveticaneue'; font-size: 3.5em; margin-top: 20px; margin-bottom: 20px;}
+    #tel{font-family: 'helveticaneue'; font-size: 10pt; padding-bottom: 15px; padding: 15%;}
+
+
+}
